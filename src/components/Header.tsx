@@ -1,11 +1,20 @@
+import { useClienteConfig } from '../context/ClienteConfigContext';
+
 function Header() {
-  const logoUrl = import.meta.env.VITE_LOGO_URL;
-  const schoolName = import.meta.env.VITE_SCHOOL_NAME;
+  const { logoUrl, name, primaryColor } = useClienteConfig();
 
   return (
-    <header style={{ display: 'flex', alignItems: 'center', marginBottom: '2rem' }}>
-      <img src={logoUrl} alt="Logo da escola" style={{ height: '80px', marginRight: '1rem' }} />
-      <h2>{schoolName}</h2>
+    <header style={{
+      display: 'flex',
+      alignItems: 'center',
+      gap: '1rem',
+      padding: '1rem 0',
+      borderBottom: '1px solid #ccc', 
+      backgroundColor: primaryColor || '#fff',
+      color: '#000'
+    }}>
+      <img src={logoUrl} alt="Logo" style={{ height: '60px' }} />
+      <h2>{name}</h2>
     </header>
   );
 }
