@@ -31,10 +31,10 @@ Crie um arquivo `.env` na raiz do projeto com o seguinte conteúdo:
 ```env
 VITE_CLIENT_NAME='Nome do Cliente'
 VITE_PRIMARY_COLOR='#228B22'
-VITE_LOGO_URL='/logos/jurassica.png'
+VITE_LOGO_URL='/logos/image.png'
 ```
 
-⚠️ **Importante:** use aspas nas variáveis, especialmente em cores com `#`.
+⚠️ **Importante:** use aspas nas variáveis, especialmente em cores com `#`, para que o arquivo .env reconheça corretamente suas variáveis.
 
 ---
 
@@ -75,7 +75,7 @@ src/
 
 ## 💡 Possíveis melhorias futuras
 
-- Sistema multicliente com seleção via rota (ex: `/cliente/a`)
+- Sistema multicliente com seleção via rota
 - Página de login
 - Dashboard com dados reais
 - Integração com banco/API
