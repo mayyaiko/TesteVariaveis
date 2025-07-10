@@ -42,8 +42,8 @@ VITE_LOGO_URL='/logos/image.png'
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/mayyaiko/TesteVariaveis.git
+cd TesteVariaveis
 
 # 2. Instale as dependências
 npm install
