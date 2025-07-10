@@ -4,13 +4,6 @@ Este projeto é um template básico e profissional de um sistema personalizável
 
 ---
 
-## 📸 Preview
-
-<!-- Você pode trocar essa imagem por um print da tela real do sistema -->
-![preview do sistema](./public/logos/jurassica.png)
-
----
-
 ## 🚀 Funcionalidades
 
 - Personalização automática via `.env`
